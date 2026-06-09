@@ -82,6 +82,14 @@
     display: none;
 }
 
+.profile-img {
+    width: 200px;         
+    height: 200px;        
+    object-fit: cover;    
+    border-radius: 50%;   
+    margin: 0 auto 15px;  
+}
+
 .accordion-body.active {
     display: block;
 }
@@ -97,8 +105,6 @@
 .success-laudo { background-color: #c8e6c9; color: #256029; }
 .danger-laudo { background-color: #ffcdd2; color: #c62828; }
 .hidden { display: none; }
-
-
 
 /* ESTRUTURA DE LAYOUT PARA AS PÁGINAS DA SOLUÇÃO */
 .grid-two-columns {
