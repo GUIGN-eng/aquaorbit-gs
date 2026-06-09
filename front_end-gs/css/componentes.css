@@ -1,0 +1,99 @@
+/* HERO SECTION & CARDS */
+.hero-section {
+    background: linear-gradient(135deg, #0d233a 0%, #1a4a75 100%);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1-fraction));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* FORMULÁRIOS & BOTOES */
+.styled-form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #0288d1;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* ACORDEON (FAQ) */
+.accordion-item {
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.accordion-header {
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background: #e1f5fe;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.accordion-body {
+    padding: 15px;
+    display: none;
+}
+
+.accordion-body.active {
+    display: block;
+}
+
+.feedback-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success-laudo { background-color: #c8e6c9; color: #256029; }
+.danger-laudo { background-color: #ffcdd2; color: #c62828; }
+.hidden { display: none; }
