@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaOrbit - Central de Testes & Contato</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">AquaOrbit</div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre o Projeto</a>
+            <a href="modulo-uv.html">Módulo UV</a>
+            <a href="modulo-destilacao.html">Módulo Destilação</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contato.html" class="active">Contato</a>
+            <a href="integrantes.html">Equipe</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Simulação Avançada de Potabilidade (DDD Motor)</h2>
+        <form id="contactForm" class="styled-form">
+            <div class="form-group">
+                <label for="commName">Nome da Comunidade:</label>
+                <input type="text" id="commName" required>
+            </div>
+            <div class="form-group">
+                <label for="phValue">pH Coletado (6.0 a 9.5):</label>
+                <input type="number" step="0.1" id="phValue" required>
+            </div>
+            <div class="form-group">
+                <label for="turbidezValue">Nível de Turbidez NTU (Máx 5.0):</label>
+                <input type="number" step="0.1" id="turbidezValue" required>
+            </div>
+            <div class="form-group">
+                <label for="cloroValue">Cloro Residual mg/L (0.2 a 2.0):</label>
+                <input type="number" step="0.1" id="cloroValue" required>
+            </div>
+            <button type="submit" class="btn-primary">Processar Laudo Técnico</button>
+        </form>
+        <div id="formFeedback" class="feedback-box hidden"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AquaOrbit. Desenvolvido por Guilherme Gomes Nogueira.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
