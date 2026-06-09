@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaOrbit - Módulo de Radiação UV</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">AquaOrbit</div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">☰</button>
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre o Projeto</a>
+            <a href="modulo-uv.html" class="active">Módulo UV</a>
+            <a href="modulo-destilacao.html">Módulo Destilação</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contato.html">Contato</a>
+            <a href="integrantes.html">Equipe</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="tech-detail">
+            <h2>Módulo de Radiação UV Compacta</h2>
+            <p class="subtitle">Eliminação microbiológica de alta eficiência através de radiação eletromagnética ultravioleta de onda curta (UV-C).</p>
+            
+            <div class="grid-two-columns">
+                <div class="text-block">
+                    <h3>Funcionamento Técnico</h3>
+                    <p>O purificador baseado em radiação ultravioleta destrói instantaneamente o DNA e o RNA de microrganismos patogênicos (como bactérias e vírus), impedindo sua reprodução sem alterar o sabor, o odor ou as propriedades químicas da água.</p>
+                    <p>Este hardware estende as propriedades da classe abstrata de equipamentos do ecossistema <strong>AquaOrbit</strong>, adicionando validações em tempo real para garantir que a lâmpada opere na potência ideal simulada no backend em Java.</p>
+                </div>
+                
+                <div class="specs-table-container">
+                    <h3>Atributos do Objeto (Especificações)</h3>
+                    <table class="tech-table">
+                        <thead>
+                            <tr>
+                                <th>Atributo (Java)</th>
+                                <th>Mapeamento Técnico</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="code-cell">potenciaLampadaW</td>
+                                <td>45 Watts (Eficiência Crítica)</td>
+                            </tr>
+                            <tr>
+                                <td class="code-cell">vidaUtilRestanteHoras</td>
+                                <td>9.000 Horas nominais de operação</td>
+                            </tr>
+                            <tr>
+                                <td class="code-cell">vazaomaximaLitros</td>
+                                <td>Até 12 Litros por minuto (L/min)</td>
+                            </tr>
+                            <tr>
+                                <td class="code-cell">statusOperacional</td>
+                                <td>Monitorado via Auditoria de Risco</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AquaOrbit. Desenvolvido por Guilherme Gomes Nogueira para a Global Solution - FIAP.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
