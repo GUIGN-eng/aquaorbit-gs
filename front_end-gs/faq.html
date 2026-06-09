@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaOrbit - FAQ</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">AquaOrbit</div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre o Projeto</a>
+            <a href="modulo-uv.html">Módulo UV</a>
+            <a href="modulo-destilacao.html">Módulo Destilação</a>
+            <a href="faq.html" class="active">FAQ</a>
+            <a href="contato.html">Contato</a>
+            <a href="integrantes.html">Equipe</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Perguntas Frequentes (FAQ)</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">Como funciona o motor de regras de potabilidade?</button>
+                <div class="accordion-body">
+                    <p>O sistema processa variáveis analíticas decimais de pH (meta entre 6.0 e 9.5), turbidez (máximo 5.0 NTU) e cloro residual (entre 0.2 e 2.0 mg/L) para determinar a aprovação da amostra.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">O que acontece caso uma amostra seja reprovada?</button>
+                <div class="accordion-body">
+                    <p>O método de auditoria dispara reativamente um alerta priorizado, exibindo o código de identificação do hardware para interrupção operacional imediata e triagem em campo.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AquaOrbit. Desenvolvido por Guilherme Gomes Nogueira.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
