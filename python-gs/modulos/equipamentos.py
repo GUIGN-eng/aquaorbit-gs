@@ -39,8 +39,8 @@ def cadastrar_equipamento():
                 tipo_escolhido = TIPOS_MODULO[idx]
             break  # Sai do loop pois a escolha é válida
 
-    # Se falhar em qualquer uma das condições acima, exibe o erro e o loop continua
-    print("Opção inválida.")
+        # Se falhar em qualquer uma das condições acima, exibe o erro e o loop continua
+        print("Opção inválida.")
 
     id_comunidade = input("ID da comunidade onde será instalado: ").strip()
     capacidade = input("Capacidade (litros/dia): ").strip()
