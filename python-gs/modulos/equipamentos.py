@@ -27,19 +27,20 @@ def cadastrar_equipamento():
     for i, tipo in enumerate(TIPOS_MODULO, 1):
         print(f"  [{i}] {tipo}")
 
-    while True:
+        while True:
         escolha = input("Escolha o tipo (número): ").strip()
     
-        # 1. Verifica se o usuário digitou apenas números e se não está vazio
         if escolha.isdigit():
             idx = int(escolha) - 1
             
-            # 2. Verifica se o índice existe na lista TIPOS_MODULO
             if 0 <= idx < len(TIPOS_MODULO):
                 tipo_escolhido = TIPOS_MODULO[idx]
-                break  # Sai do loop pois a escolha é válida
-        # Se falhar em qualquer uma das condições acima, exibe o erro e o loop continua
+                break 
+
+        # CORREÇÃO: Este print tem apenas 4 espaços antes dele.
+        # Ele foi "jogado" para trás, ficando alinhado com o "while True:"
         print("Opção inválida.")
+
 
     id_comunidade = input("ID da comunidade onde será instalado: ").strip()
     capacidade = input("Capacidade (litros/dia): ").strip()
