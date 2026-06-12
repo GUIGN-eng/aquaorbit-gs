@@ -38,7 +38,6 @@ def cadastrar_equipamento():
             if 0 <= idx < len(TIPOS_MODULO):
                 tipo_escolhido = TIPOS_MODULO[idx]
                 break  # Sai do loop pois a escolha é válida
-
         # Se falhar em qualquer uma das condições acima, exibe o erro e o loop continua
         print("Opção inválida.")
 
